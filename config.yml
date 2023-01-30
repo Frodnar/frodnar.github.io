@@ -1,5 +1,5 @@
 baseURL: "https://frodnar.github.io"
-title: Frodnar
+title: Christopher J Roberts
 paginate: 5
 theme: PaperMod
 
@@ -16,10 +16,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Frodnar's Blog
+  title: Chris's Blog
   description: "Personal blog of a data-focused entrepreneur, father, and husband."
   keywords: [Frodnar, Data, Blog, Portfolio, PaperMod]
-  author: Frodnar
+  author: Chris Roberts
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -78,11 +78,11 @@ params:
 
   socialIcons:
     - name: linkedin
-      url: "https://linkedin.com/"
+      url: "https://linkedin.com/in/christopher-j-roberts"
     - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://stackoverflow.com/users/15534441/frodnar"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/Frodnar"
 
   analytics:
     google:
