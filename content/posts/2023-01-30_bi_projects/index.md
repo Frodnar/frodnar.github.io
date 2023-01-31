@@ -25,7 +25,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "/dash_cap.png" # image path/url
+    image: "images/dash_cap.png" # image path/url
     alt: "Screenshot of a dark theme Looker Studio dashboard" # alt text
     caption: "Screenshot of a Looker Studio dashboard I made as a personal project" # display caption under cover
     relative: false # when using page bundles set this to true
