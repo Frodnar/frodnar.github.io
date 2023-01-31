@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "Summary of old personal projects in the business intellligence (dashboard building) realm"
-canonicalURL: "https://frodnar.github.io/posts/bi-projects"
+canonicalURL: "https://frodnar.github.io/posts/2023-01-30_bi_projects"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
@@ -25,7 +25,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "../dash_cap.png" # image path/url
+    image: "dash_cap.png" # image path/url
     alt: "Screenshot of a dark theme Looker Studio dashboard" # alt text
     caption: "Screenshot of a Looker Studio dashboard I made as a personal project" # display caption under cover
     relative: false # when using page bundles set this to true
