@@ -119,7 +119,7 @@ menu:
       url: /tags/
       weight: 10
     - identifier: about-me
-      name: About Me
+      name: about me
       url: https://linkedin.com/in/christopher-j-roberts
       weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
