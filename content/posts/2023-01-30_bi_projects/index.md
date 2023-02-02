@@ -1,5 +1,5 @@
 ---
-title: "BI Projects"
+title: "BI Projects Critiques"
 date: 2023-01-30T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
