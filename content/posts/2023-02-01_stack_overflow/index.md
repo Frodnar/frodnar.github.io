@@ -1,18 +1,18 @@
 ---
-title: "BI Projects"
-date: 2023-01-30T11:30:03+00:00
+title: "Stack Overflow"
+date: 2023-02-01T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["BI", "Power BI", "Looker Studio", "Dashboards", "Projects", "COVID"]
+tags: ["Stack Overflow", "Programming", "Python", "Network analysis", "Presentations"]
 author: "Chris"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
+draft: true # CHANGE TO FALSE ONCE READY TO PUBLISH
 hidemeta: false
 comments: false
-description: "Summary of old personal projects in the business intellligence (dashboard building) realm"
-canonicalURL: "https://frodnar.github.io/posts/2023-01-30_bi_projects"
+description: ""
+canonicalURL: "https://frodnar.github.io/posts/2023-02-01_stack_overflow"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
@@ -25,9 +25,9 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "images/dash_cap.png" # image path/url
-    alt: "Screenshot of a dark theme Looker Studio dashboard" # alt text
-    caption: "Screenshot of a Looker Studio dashboard I made as a personal project" # display caption under cover
+    image: "images/logo-stackoverflow.png" # image path/url
+    alt: "Stack Overflow logo" # alt text
+    caption: "" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 editPost:
@@ -35,13 +35,13 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-# Getting started
+## Getting started
 
-My first post here is a collection of old BI projects.  I wavered on whether or not to post these because they are no longer representative of my current work, but in the end I felt like it could be useful for early career analysts to see how another data professional has developed over the years.  In that spirit, I'll critique each of these projects with an eye to what I would do differently if I were starting the project again from scratch.
+This post is all about my general experience (and occasional gripes) with [Stack Overflow](https://stackoverflow.com/).  If you've been living under a rock, Stack Overflow is a programming forum that contains an unimaginable wealth of programming and related knowledge that, if you've ever tried to program anything in your life, you've ended up on at some point or another.
 
-# Constructive Feedback to Me
+## Projects
 
-## Obligatory COVID Tracking Dashboard
+### Obligatory COVID Tracking Dashboard
 First up is a [COVID tracking dashboard](https://bit.ly/2HpCCLF) made when COVID infections in the United States were still in the range of a few hundred cases.  
 
 [![Power BI COVID tracking dashboard](images/covid_dash_1.png)](https://bit.ly/2HpCCLF)
@@ -55,7 +55,7 @@ This was one of my first projects in Power BI, and it actually turned out much b
 
 There are several things that I like and appreciate about this original project, however, and I don't want to spend the whole post being hard on my former self. Despite not using a moving window, I really like that I implemented a rolling average while retaining the actual daily values in the bottom-most charts.  I haven't posted the `.pbix`, but looking at it I also can appreciate that I took care to have a nicely documented process with consistent naming for measures and the like.  Finally, I'm glad that I used color sparingly and consistently and took care with the more hidden bits like tooltips.
 
-## COVID Journal Publications Dashboard
+### COVID Journal Publications Dashboard
 
 More Power BI and more COVID in [this dashboard](https://bit.ly/3GKvsuq) that allows the user to explore journal articles published on COVID research.  This project was slapped together quickly in response to needing more Power BI content for a job application. I was already familiar with [Dimensions](https://dimensions.ai) data, and so I decided use the [open COVID dataset](https://console.cloud.google.com/marketplace/product/digitalscience-public/covid-19-dataset-dimensions) to pull together an overview by topic area.  
 
@@ -71,7 +71,7 @@ I have seen an untold number of dashboards that were essentially built because, 
 
 This is exactly what happened in the case of this publications dashboard.  It lacked focus, purpose, and a clear audience, and so its features ended up being generic and not particularly useful.
 
-## COVID International Collaborations Dashboard
+### COVID International Collaborations Dashboard
 
 The last of my three COVID projects is a [Google Data Studio (now Looker Studio) report](https://bit.ly/33U9PHx) that provides a good counter-example to the relatively purposeless dashboard above. It even uses the same dataset.  Even though this was a generic personal project, I came up with a very specific, theoretical use case that clarified the purpose and audience of the dashboard, giving it a much clearer focus.  I even wrote it at the top of the dashboard.
 
@@ -81,7 +81,7 @@ The resulting work product is much more in scrolling report form with the intent
 
 Here my only major critiques are around not taking additional care with data quality.  For instance, there are multiple records for the same author at different institutions, and it would have been more effective to try to match at least some of the more prolific authors across their affiliations.  At the end of the day, however, I'm pretty pleased with how this turned out.  
 
-# Summing up
+## Summing up
 
 My best advice after reviewing these projects comes down to this:
 
