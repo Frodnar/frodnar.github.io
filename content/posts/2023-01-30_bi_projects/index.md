@@ -1,5 +1,5 @@
 ---
-title: "BI Projects Critiques"
+title: "BI Project Critiques"
 date: 2023-01-30T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
@@ -85,4 +85,4 @@ Here my only major critiques are around not taking additional care with data qua
 
 My best advice after reviewing these projects comes down to this:
 
-> Make the audience and purpose of your work product explicitly clear.  Write it down.  If there are too many audiences to satisfy, either clarify the audience and use case or break up the report into mulitple versions with different users in mind for each version.
+> Make the audience and purpose of your work product explicitly clear.  Write it down.  If there are too many audiences to satisfy, either clarify the audience and use case or break up the report into multiple versions with different users in mind for each version.

@@ -39,6 +39,15 @@ editPost:
 
 This post is all about my general experience (and occasional gripes) with [Stack Overflow](https://stackoverflow.com/).  If you've been living under a rock, Stack Overflow is a programming forum that contains an unimaginable wealth of programming and related knowledge that, if you've ever tried to program anything in your life, you've ended up on at some point or another.
 
+- My interaction model (hot and cold)
+  - Heavy answering periods
+  - Regular use for work and projects alike
+- Unwelcoming environment
+- Shrink wrap post + presentation
+- other favorite posts and libraries
+  - clustering (1D HDBSCAN)
+- 
+
 ## Projects
 
 ### Obligatory COVID Tracking Dashboard
