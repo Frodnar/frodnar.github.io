@@ -3,7 +3,7 @@ title: "BI Project Critiques"
 date: 2023-01-30T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["BI", "Power BI", "Looker Studio", "Dashboards", "Projects", "COVID"]
+tags: ["BI", "Power BI", "Looker Studio", "Dashboards", "Projects", "Data Viz", "COVID"]
 author: "Chris"
 # author: ["Me", "You"] # multiple authors
 showToc: true
