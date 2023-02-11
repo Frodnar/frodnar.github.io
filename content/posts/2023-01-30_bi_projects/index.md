@@ -37,7 +37,7 @@ editPost:
 ---
 ## Getting started
 
-My first post here is a collection of old BI projects.  I wavered on whether or not to post these because they are no longer representative of my current work, but in the end I felt like it could be useful for early career analysts to see how another data professional has developed over the years.  In that spirit, I'll critique each of these projects with an eye to what I would do differently if I were starting the project again from scratch.
+My first post here is a collection of old BI projects.  I wavered on whether or not to post these since they're no longer representative of my current work, but in the end I felt like it could be useful for early career analysts to see how another data professional has developed over the years.  In that spirit, I'll critique each of these projects with an eye to what I would do differently if I were starting the project again from scratch.
 
 ## Constructive Feedback to Me
 

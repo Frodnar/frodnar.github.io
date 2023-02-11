@@ -1,6 +1,6 @@
 ---
 title: "Descritizing numerical columns for ML with pandas"
-date: 2023-02-12T11:30:03+00:00
+date: 2023-02-11T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["Programming", "ML", "Tips and Tricks", "Pandas", "Python"]
@@ -8,7 +8,7 @@ author: "Chris"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false # CHANGE ONCE READY TO PUBLISH
+draft: false 
 hidemeta: false
 comments: false
 description: "A quick trick for one-hot encoding numerical columns"
@@ -25,7 +25,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "images/dash_cap.png" # image path/url
+    image: "images/df_descritize.png" # image path/url
     alt: "Screenshot of pandas dataframe" # alt text
     caption: "" # display caption under cover
     relative: false # when using page bundles set this to true
@@ -35,13 +35,11 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-## Getting started
+I am a big fan of the Python programming language and its powerful data analysis library, pandas. Today, I'd like to share a trick that I've learned to one hot encode continuous numerical data in pandas.
 
-I am a big fan of the Python programming language and its powerful data analysis library, pandas. Today, I'd like to share a trick that I've learned to one hot encode numerical data in pandas.
+One hot encoding is a technique used to convert categorical variables into 1s and 0s in order to prepare data for machine learning algorithms. Normally, this is done using the `get_dummies()` function in pandas. However, what if we want to one hot encode continuous numerical data using binning?
 
-One hot encoding is a technique used to convert categorical variables into numerical ones, in order to prepare data for machine learning algorithms. Normally, this is done using the `get_dummies()` function in pandas. However, what if we want to one hot encode numerical data using binning?
-
-The solution is to chain the `get_dummies()` function with `cut` or `qcut`. This allows us to one hot encode the resulting bins and convert the numerical data into categorical data. Here's how we can do it:
+The solution is to chain the `get_dummies()` function with `cut` or `qcut`. This allows us to one hot encode the resulting binned data and thus convert the continuous numerical values into one hot encoded categories. Here's how we can do it:
 
     import pandas as pd
     import numpy as np
@@ -60,6 +58,6 @@ The solution is to chain the `get_dummies()` function with `cut` or `qcut`. This
     df['col1_bins'] = pd.qcut(df['col1'], q=4)
     df = pd.get_dummies(df, columns=['col1_bins'])
 
-And that's it! We've transformed our numerical data into categorical data that we can use in our machine learning models. By chaining `get_dummies()` with `cut` or `qcut`, we can one hot encode numerical data in a few simple steps.
+And that's it! Just as in the image at the top of this post, we've transformed our numerical data into one hot encoded categories that we can use in our machine learning models.
 
 I hope this trick is useful for you and that it helps you with your own data analysis projects. Pandas is a truly powerful library, and I'm always discovering new and interesting ways to use it. If you're interested in learning more about data analysis with Python and pandas, there are many great resources available online. Happy coding!

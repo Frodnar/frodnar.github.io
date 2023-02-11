@@ -9,7 +9,16 @@
       <link>https://frodnar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 30 Jan 2023 11:30:03 +0000</lastBuildDate><atom:link href="https://frodnar.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Feb 2023 11:30:03 +0000</lastBuildDate><atom:link href="https://frodnar.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Descritizing numerical columns for ML with pandas</title>
+      <link>https://frodnar.github.io/posts/2023-02-12_descritize_numerical_columns_pandas/</link>
+      <pubDate>Sat, 11 Feb 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://frodnar.github.io/posts/2023-02-12_descritize_numerical_columns_pandas/</guid>
+      <description>A quick trick for one-hot encoding numerical columns</description>
+    </item>
+    
     <item>
       <title>BI Project Critiques</title>
       <link>https://frodnar.github.io/posts/2023-01-30_bi_projects/</link>
