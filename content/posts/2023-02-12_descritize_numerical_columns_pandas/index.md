@@ -58,6 +58,6 @@ The solution is to chain the `get_dummies()` function with `cut` or `qcut`. This
     df['col1_bins'] = pd.qcut(df['col1'], q=4)
     df = pd.get_dummies(df, columns=['col1_bins'])
 
-And that's it! Just as in the image at the top of this post, we've transformed our numerical data into one hot encoded categories that we can use in our machine learning models.
+And that's it! Just as in the image at the top of this post, we've transformed our numerical data into one hot encoded categories that we can use in our machine learning models.  Note that you can also pass a custom list of bin edges to `cut` if needed.
 
-I hope this trick is useful for you and that it helps you with your own data analysis projects. Pandas is a truly powerful library, and I'm always discovering new and interesting ways to use it. If you're interested in learning more about data analysis with Python and pandas, there are many great resources available online. Happy coding!
+I hope this trick is useful for you and that it helps you with your own data analysis projects. Pandas is a truly powerful library, and I'm always discovering new and interesting ways to use it. If you're interested in learning more about data analysis with Python and pandas, give me a [follow on LinkedIn](https://www.linkedin.com/in/christopher-j-roberts/). Happy coding!
