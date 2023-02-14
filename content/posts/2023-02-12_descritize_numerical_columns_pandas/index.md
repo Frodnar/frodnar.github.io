@@ -7,7 +7,7 @@ tags: ["Programming", "ML", "Tips and Tricks", "Pandas", "Python"]
 author: "Chris"
 # author: ["Me", "You"] # multiple authors
 showToc: true
-TocOpen: false
+TocOpen: true
 draft: false 
 hidemeta: false
 comments: false
@@ -35,9 +35,13 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+## Getting Started
+
 I am a big fan of the Python programming language and its powerful data analysis library, pandas. Today, I'd like to share a trick that I've learned to one hot encode continuous numerical data in pandas.
 
 One hot encoding is a technique used to convert categorical variables into 1s and 0s in order to prepare data for machine learning algorithms. Normally, this is done using the `get_dummies()` function in pandas. However, what if we want to one hot encode continuous numerical data using binning?
+
+## The code
 
 The solution is to chain the `get_dummies()` function with `cut` or `qcut`. This allows us to one hot encode the resulting binned data and thus convert the continuous numerical values into one hot encoded categories. Here's how we can do it:
 
@@ -60,4 +64,20 @@ The solution is to chain the `get_dummies()` function with `cut` or `qcut`. This
 
 And that's it! Just as in the image at the top of this post, we've transformed our numerical data into one hot encoded categories that we can use in our machine learning models.  Note that you can also pass a custom list of bin edges to `cut` if needed.
 
-I hope this trick is useful for you and that it helps you with your own data analysis projects. Pandas is a truly powerful library, and I'm always discovering new and interesting ways to use it. If you're interested in learning more about data analysis with Python and pandas, give me a [follow on LinkedIn](https://www.linkedin.com/in/christopher-j-roberts/). Happy coding!
+## The context
+
+Ok, great -- so we can discretize a continuous variable.  So what?  Why do it?  Well, there are several reasons why this is done:
+
+1. Improved model interpretability: Discretization makes it easier to understand the relationship between the input variables and the target variable, as categorical variables can be easily visualized and analyzed.
+
+2. Handling non-linear relationships: Discretization can capture non-linear relationships between the continuous variable and the target variable that might not be apparent in the original data.
+
+3. Handling outliers: Discretization can help to reduce the impact of outliers on the model, as outliers in a continuous variable can have a large impact on the model's predictions.
+
+4. Reduced computation time: Discretizing a continuous variable can reduce the size of the data and the complexity of the model, making computation faster and more efficient.
+
+Despite these potential advantages, it's important to be careful when discretizing, as the process can result in information loss and can adversely affect the performance of the model if not done correctly.
+
+## Wrapping up
+
+I hope this trick is useful for you and that it helps you with your own data analysis projects. Pandas is definitely a useful library, and I'm always discovering new and interesting ways to use it. If you're interested in learning more about data analysis with Python and pandas, give me a [follow on LinkedIn](https://www.linkedin.com/in/christopher-j-roberts/). Happy coding!
