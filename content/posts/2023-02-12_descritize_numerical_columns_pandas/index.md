@@ -37,7 +37,7 @@ editPost:
 ---
 ## Getting Started
 
-I am a big fan of the Python programming language and its powerful data analysis library, pandas. Today, I'd like to share a trick that I've learned to one hot encode continuous numerical data in pandas.
+I am a big fan of Python and its powerful data analysis library, pandas. Today, I'd like to share a trick that's save me tons of time when trying to one hot encode continuous numerical data in pandas.
 
 One hot encoding is a technique used to convert categorical variables into 1s and 0s in order to prepare data for machine learning algorithms. Normally, this is done using the `get_dummies()` function in pandas. However, what if we want to one hot encode continuous numerical data using binning?
 
