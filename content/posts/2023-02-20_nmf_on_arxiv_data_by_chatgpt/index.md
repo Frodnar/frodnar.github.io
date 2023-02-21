@@ -27,7 +27,7 @@ UseHugoToc: true
 cover:
     image: "images/plotly_scatter.png" # image path/url
     alt: "Screenshot of plotly scatter plot" # alt text
-    caption: "" # display caption under cover
+    caption: "Plotly scatter plot of topic model created with ChatGPT-generated code" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 editPost:
@@ -114,6 +114,6 @@ Now, if you're like me, you'll want to explore the plot that was generated.  I'v
 
 I'm pretty floored by how well today's generative models can write and explain code.  There certainly are caveats and minor errors, and of course ChatGPT falls down whenever it's asked questions that are outside its training data. For instance, good luck getting working examples on more recently updated libraries that have major changes to their API or library structure since 2021.  As a former chemist, I can also confirm ChatGPT is ... not optimized ... for use in the chemical sciences.
 
-But on balance, I'm still blown away by the ability of these large language models to generate sensible, well-documented, and somewhat efficient code and then turn around and explain the code that it generated.  Stitching together the outputs of several different libraries, even if they are commonly used together, is no simple task, and it would have taken me a couple of hours of research to throw together more poorly documented code to do the same thing.  
+But on balance, I'm still blown away by the ability of these large language models to generate sensible, well-documented, and somewhat efficient code and then turn around and explain the code that was generated.  Stitching together the outputs of several different libraries, even if they are commonly used together, is no simple task, and it would have taken me a couple of *hours* of research to throw together more poorly documented code to do the same thing.  
 
 ChatGPT generated the above article with working code in about 30 seconds.
