@@ -39,9 +39,9 @@ editPost:
 
 So I'll confess, I'm pretty late to the party here.  ChatGPT and other generative AI models have taken the popular conciousness by storm while I've been sitting around trying to ignore the hype.  I've seen previous advancements in generative audio and imagery models and shrugged at the relative lack of societally beneficial applications that surfaced.  I've even been uncomfortable using the term 'artificial intelligence' to refer to any system -- you'll notice it doesn't appear in any of my content -- but that may be starting to change. 
 
-I am here to admit that I am utterly shocked at the performance *and utility* of the current state-of-the-art generative language models.  Are there potentially huge dangers in terms of bias, propoganda, and uneven distribution of benefits?   Yes, of course.  However, just because a tool is dangerous doesn't mean we shouldn't learn to use it carefully and make it better.  
+I am here to admit that I am pleasantly surprised at the performance *and utility* of the current state-of-the-art generative language models.  Are there potentially huge dangers in terms of bias, propoganda, and uneven distribution of benefits?   Yes, of course.  (If you'd like more discussion about the risks I see, jump to the end of this post.)  However, just because a tool is dangerous doesn't mean we shouldn't learn to use it carefully and make it better.  
 
-I've seen loads of ChatGPT-generated text on social media lately, but what changed my mind was the ability to interact with ChatGPT around code and related concepts.  Perhaps if I had tried [GitHub Copilot](https://github.com/features/copilot) sooner, I wouldn't be acting such the fanboy right now.  In any case, I wanted to provide an example of runnable code and its explanation in order to (1) justify my fanboyism, and (2) because I haven't seen examples of complex code being generated in my social media feeds.
+I've seen loads of ChatGPT-generated text on social media lately, but what changed my mind was the ability to interact with ChatGPT around code and related concepts.  Perhaps if I had tried [GitHub Copilot](https://github.com/features/copilot) sooner, I wouldn't be acting as taken aback right now.  In any case, I wanted to provide an example of runnable code and its explanation in order to (1) justify my fanboyism, and (2) because I haven't seen examples of complex code being generated in my social media feeds.
 
 So, without further ado, here is the unedited reponse to a prompt that I gave ChatGPT to write an article with working code about a specific type of topic modeling called non-negative matrix factorization, or NMF, to be used on a corpus of paper abstracts from [arxiv.org](https://arxiv.org/).  I gave it specific instructions on which python libraries to use and how to visualize the results.
 
@@ -108,12 +108,20 @@ In conclusion, we've shown how to perform topic modeling on a corpus of academic
 
 ## End ChatGPT
 
-## Wrapping up
+## My two cents
 
 Now, if you're like me, you'll want to explore the plot that was generated.  I've hosted it [here](https://data-for-humans.com/wp-content/uploads/2023/02/chatgpt_generated_plot.html) for easy interaction.  Back to the main point, though.
 
-I'm pretty floored by how well today's generative models can write and explain code.  There certainly are caveats and minor errors, and of course ChatGPT falls down whenever it's asked questions that are outside its training data. For instance, good luck getting working examples on more recently updated libraries that have major changes to their API or library structure since 2021.  As a former chemist, I can also confirm ChatGPT is ... not optimized ... for use in the chemical sciences.
+I'm pretty impressed by how well today's generative models can write and explain code, at least providing a solid starting point for further iteration.  There certainly are caveats and errors, and of course ChatGPT falls down whenever it's asked questions that are outside its training data. For instance, good luck getting working examples on more recently updated libraries that have major changes to their API or library structure since 2021.  As a former chemist, I can also confirm ChatGPT is ... not optimized ... for use in the chemical sciences.  This [New Yorker article](https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web) also highlights its lack of arithmetic knowledge while providing a good analogy for how ChatGPT works.
 
-But on balance, I'm still blown away by the ability of these large language models to generate sensible, well-documented, and somewhat efficient code and then turn around and explain the code that was generated.  Stitching together the outputs of several different libraries, even if they are commonly used together, is no simple task, and it would have taken me a couple of *hours* of research to throw together more poorly documented code to do the same thing.  
+But on balance, I'm still excited by the ability of these large language models to generate sensible, well-documented, and somewhat efficient code and then turn around and explain the code that was generated.  Stitching together the outputs of several different libraries, even if they are commonly used together, is no simple task, and it would have taken me a couple of *hours* of research to throw together more poorly documented code to do the same thing.  
 
 ChatGPT generated the above article with working code in about 30 seconds.
+
+The major risks I see with this tool are bias, intentional and unintinentional misinformation, and potential harm to the learning process.  I'd like to spend some time here on that last point -- detriment to learning and creativity -- because I think this is a point that is most unique to these large language models compared to other data science tools.  
+
+What we miss when we skip reading documentation, experimenting with a Python objects methods and attributes, or simply investigating our data further is the foundational knowledge that is critical to nearly any project's success.  I'm not saying don't use ChatGPT if you want to be successful in a given project, but I am saying don't skip the research phase, however great the temptation.  For instance, ChatGPT's working code above misses potentially important parts of text preprocessing that one can only learn through the experience of examining others' code and interrogating one's own data.  It also doesn't deliver a user experience in the final plot that any human would enjoy.  (It would be much more useful to see a name for the topic and the top N terms, rather than a meaningless topic number.)
+
+## Wrapping up
+
+So go ahead -- use ChatGPT to generate some portions of your code.  It *will* save you time and effort.  Just look out for mistakes, do your own homework, and figure out why the methods it implements work or don't work.  Strike a balance between sheer productivity and thoughtful creation.  I promise you'll be happy you did.
