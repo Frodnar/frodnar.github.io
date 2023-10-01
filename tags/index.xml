@@ -9,7 +9,80 @@
       <link>https://frodnar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Feb 2023 11:30:03 +0000</lastBuildDate><atom:link href="https://frodnar.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 30 Sep 2023 11:30:03 +0000</lastBuildDate><atom:link href="https://frodnar.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chainlit</title>
+      <link>https://frodnar.github.io/tags/chainlit/</link>
+      <pubDate>Sat, 30 Sep 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://frodnar.github.io/tags/chainlit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph</title>
+      <link>https://frodnar.github.io/tags/graph/</link>
+      <pubDate>Sat, 30 Sep 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://frodnar.github.io/tags/graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LangChain</title>
+      <link>https://frodnar.github.io/tags/langchain/</link>
+      <pubDate>Sat, 30 Sep 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://frodnar.github.io/tags/langchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LLMs</title>
+      <link>https://frodnar.github.io/tags/llms/</link>
+      <pubDate>Sat, 30 Sep 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://frodnar.github.io/tags/llms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neo4j</title>
+      <link>https://frodnar.github.io/tags/neo4j/</link>
+      <pubDate>Sat, 30 Sep 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://frodnar.github.io/tags/neo4j/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://frodnar.github.io/tags/programming/</link>
+      <pubDate>Sat, 30 Sep 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://frodnar.github.io/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>https://frodnar.github.io/tags/project/</link>
+      <pubDate>Sat, 30 Sep 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://frodnar.github.io/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://frodnar.github.io/tags/python/</link>
+      <pubDate>Sat, 30 Sep 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://frodnar.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ChatGPT</title>
       <link>https://frodnar.github.io/tags/chatgpt/</link>
@@ -25,33 +98,6 @@
       <pubDate>Mon, 20 Feb 2023 11:30:03 +0000</pubDate>
       
       <guid>https://frodnar.github.io/tags/ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programming</title>
-      <link>https://frodnar.github.io/tags/programming/</link>
-      <pubDate>Mon, 20 Feb 2023 11:30:03 +0000</pubDate>
-      
-      <guid>https://frodnar.github.io/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Project</title>
-      <link>https://frodnar.github.io/tags/project/</link>
-      <pubDate>Mon, 20 Feb 2023 11:30:03 +0000</pubDate>
-      
-      <guid>https://frodnar.github.io/tags/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://frodnar.github.io/tags/python/</link>
-      <pubDate>Mon, 20 Feb 2023 11:30:03 +0000</pubDate>
-      
-      <guid>https://frodnar.github.io/tags/python/</guid>
       <description></description>
     </item>
     

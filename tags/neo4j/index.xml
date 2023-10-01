@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Neo4j on Christopher J Roberts</title>
+    <link>https://frodnar.github.io/tags/neo4j/</link>
+    <description>Recent content in Neo4j on Christopher J Roberts</description>
+    <image>
+      <url>https://frodnar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frodnar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 30 Sep 2023 11:30:03 +0000</lastBuildDate><atom:link href="https://frodnar.github.io/tags/neo4j/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an LLM Chatbot to Query a Neo4j Patents Database</title>
+      <link>https://frodnar.github.io/posts/2023-09-30_building_llm_chatbot_neo4j/</link>
+      <pubDate>Sat, 30 Sep 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://frodnar.github.io/posts/2023-09-30_building_llm_chatbot_neo4j/</guid>
+      <description>How I stood up a graph database and a natural language app to query it</description>
+    </item>
+    
+  </channel>
+</rss>
