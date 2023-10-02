@@ -61,7 +61,7 @@ The steps to creating the database involved:
  I won't go into full detail on all of the steps above since the focus of this post is really the latter portion on buildling a RAG app.  However, I would like to spend a little time on how I developed the `IS_SIMILAR` relationships and `Topic` nodes because this takes advantage of some recently implemented Neo4j functionality that is pretty neat.
 
 ### Finding topics and `IS_SIMILAR` relationships
-The new feature I used is Neo4j's [vector index](https://neo4j.com/docs/cypher-manual/current/indexes-for-vector-search/) which I learned about from Tomaž Bratanic's content.  If you're interested in this topic and you haven't already, I highly recommend giving Tomaž a follow [on LinkedIn](https://si.linkedin.com/in/tomaz-bratanic-a58891127), [Medium](https://bratanic-tomaz.medium.com/), and/or [Twitter](https://twitter.com/tb_tomaz).  He's also built some admittedly more impressive RAG applications on top of knowledge graphs lately.
+The new feature I used is Neo4j's [vector index](https://neo4j.com/docs/cypher-manual/current/indexes-for-vector-search/) which I learned about from Tomaž Bratanic's content.  If you're interested in this topic and you haven't already, I highly recommend giving Tomaž a follow [on LinkedIn](https://si.linkedin.com/in/tomaz-bratanic-a58891127), [Medium](https://bratanic-tomaz.medium.com/), and/or [Twitter](https://twitter.com/tb_tomaz).  He's also built some much more impressive RAG applications on top of knowledge graphs lately.
 
 I started by embedding the documents using [OpenAI text embeddings](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings) and then setting a vector property for each node using the recommended [`CALL db.create.setVectorProperty()]`](https://neo4j.com/docs/operations-manual/5/reference/procedures/#procedure_db_create_setVectorProperty) which is more space-efficient than using the typical `SET` command in Cypher. Next, I reduced the dimensionality of the vectors a bit using PCA and clustered using K-means to give 50 topics which I loaded to the graph as new nodes related to the `Document` nodes.
 
@@ -112,7 +112,7 @@ Instead of cleaning up and documenting the full code to generate the database, I
 
 ## Building the chatbot
 
-Now onto the real reason you're all here -- building the RAG app to chat with the database!
+Now onto the real reason you're all here -- building the RAG app to chat with the database!  I've committed the [`app.py` file](https://github.com/Frodnar/patents-rag/blob/main/app.py) to Github for reference.
 
 ### Developing the chain with LangChain
 
